@@ -1,0 +1,103 @@
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    font-family: sans-serif;
+}
+
+.whatsapp-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.whatsapp-popup {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 1001;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-family: sans-serif;
+}
+
+.whatsapp-popup.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.whatsapp-popup-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    padding-top: 10px; 
+}
+
+.whatsapp-popup textarea {
+    font-family: sans-serif;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none; 
+    color: black;
+}
+
+.whatsapp-popup button {
+    padding: 10px;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-popup button.close-popup {
+    background-color: red;
+    position: absolute;
+    top: -10px;
+    right: -15px;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.whatsapp-popup button:hover {
+    background-color: #20b45c;
+}
+
+.whatsapp-popup button.close-popup:hover {
+    background-color: darkred;
+}
+
+.whatsapp-popup button.close-popup::after {
+    content: "X";
+    font-size: 16px;
+    color: white;
+}
+
+.whatsapp-popup .popup-title {
+    color: #20b45c;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

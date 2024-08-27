@@ -1,0 +1,100 @@
+{
+    "productos":[
+        {
+            "id":1,
+            "categoria":"Sinnoh",
+            "titulo": "Pokemon Arceus",
+            "precio":210,
+            "imagen":"https://www.pokemoncenter.com/images/DAMRoot/High/10000/P8179_716-29910_01.jpg",
+            "descripcion": "Un juego de acción y aventura en un mundo abierto ambientado en la región de Sinnoh. Conocido por sus innovaciones en la mecánica de captura y exploración. Ofrece una experiencia única con un enfoque en la historia y la mitología de Pokémon."
+        },
+        {
+            "id":2,
+            "categoria":"Kanto",
+            "titulo": "Pokemon Pikachu",
+            "precio":115,
+            "imagen":"https://www.pokemoncenter.com/images/DAMRoot/High/10000/P5015_716-59394_01.jpg",
+            "descripcion": "Un título icónico de la región de Kanto centrado en el querido Pikachu. Ideal para los fans que buscan una experiencia nostálgica. Presenta mecánicas simplificadas para atraer tanto a nuevos jugadores como a veteranos."
+        },
+        {
+            "id":3,
+            "categoria":"Galar",
+            "titulo": "Pokemon Espada",
+            "precio":130,
+            "imagen":"https://www.pokemoncenter.com/images/DAMRoot/High/10000/P5699_716-52782_01.jpg",
+            "descripcion": "Ambientado en la región de Galar, este juego ofrece una experiencia de RPG con batallas épicas y nuevos Pokémon. Incluye una historia centrada en la espada mítica. Introduce nuevas formas de combate y personalización."
+        },
+        {
+            "id":4,
+            "categoria":"Galar",
+            "titulo": "Pokemon Escudo",
+            "precio":130,
+            "imagen":"https://www.pokemoncenter.com/images/DAMRoot/High/10000/P5698_716-52781_01.jpg",
+            "descripcion": "Junto a 'Espada', este título explora la región de Galar, pero con una narrativa enfocada en el escudo legendario y un nuevo elenco de personajes. Presenta una mecánica de juego similar con diferencias en la historia y los Pokémon disponibles."
+        },
+        {
+            "id":5,
+            "categoria":"Sinnoh",
+            "titulo": "Pokemon Diamante",
+            "precio":150,
+            "imagen":"https://www.pokemoncenter.com/images/DAMRoot/High/10000/P8180_716-29909_01.jpg",
+            "descripcion": "Una versión remasterizada del clásico de Sinnoh, con gráficos mejorados y mecánicas modernas. Perfecto para revivir una aventura épica. Incluye contenido adicional y características modernas que enriquecen la experiencia de juego."
+        },
+        {
+            "id":6,
+            "categoria":"Sinnoh",
+            "titulo": "Pokemon Perla",
+            "precio":150,
+            "imagen":"https://www.pokemoncenter.com/images/DAMRoot/High/10000/P8180_716-29908_01.jpg",
+            "descripcion": "El remake del clásico juego 'Perla' de Sinnoh, que ofrece una experiencia enriquecida con gráficos actualizados y nuevas características. Añade mejoras en el juego y contenido adicional para los fans de la serie."
+        },
+        {
+            "id":7,
+            "categoria":"Teselia",
+            "titulo": "Pokemon Blanco 2",
+            "precio":100,
+            "imagen":"https://m.media-amazon.com/images/I/81xqJ2VLnvL.jpg",
+            "descripcion": "Una secuela de 'Pokemon Blanco', situada en la región de Teselia. Introduce nuevas historias y personajes en un mundo expandido. Ofrece una experiencia de juego extendida con nuevas mecánicas y Pokémon."
+        },
+        {
+            "id":8,
+            "categoria":"Teselia",
+            "titulo": "Pokemon Negro 2",
+            "precio":100,
+            "imagen":"https://m.media-amazon.com/images/I/81uE5RzHiCL.jpg",
+            "descripcion": "La secuela de 'Pokemon Negro' que ofrece una continuación de la trama en Teselia con nuevas características y Pokémon. Presenta una historia alternativa y mejoras en la jugabilidad."
+        },
+        {
+            "id":9,
+            "categoria":"Paldea",
+            "titulo": "Pokemon Escarlata",
+            "precio":310,
+            "imagen":"https://www.pokemoncenter.com/images/DAMRoot/High/10000/P9119_716-97018_01.jpg",
+            "descripcion": "Un juego reciente ambientado en la región de Paldea, con un enfoque en la exploración y la captura de nuevos Pokémon en un entorno vibrante. Introduce innovaciones en la mecánica y el diseño de los mundos abiertos."
+        },
+        {
+            "id":10,
+            "categoria":"Paldea",
+            "titulo": "Pokemon Violeta",
+            "precio":300,
+            "imagen":"https://www.pokemoncenter.com/images/DAMRoot/High/10000/P9119_716-97017_01.jpg",
+            "descripcion": "Junto con 'Escarlata', este título explora la región de Paldea, ofreciendo nuevas mecánicas de juego y una rica historia. Incluye contenido exclusivo y características mejoradas para una experiencia única."
+        },
+        {
+            "id":11,
+            "categoria":"Kanto",
+            "titulo": "Pokemon Rojo",
+            "precio":90,
+            "imagen":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxckLjaoTVkyMLA9kk7gENt8Tm2Fw6LuiooQAry4MC1-ErVqNy5Y1yUrEQUS9yQ6f5eM99uSCXia8TG_1PolY1S6gkWJ0p_ZBtrFIcOr4TgfTo5QJyKcontCnX_jhi9KgXt4kHoTsMp3M/s1600/pokemon_red_cover_art_by_comunello76-d4xmi7e.jpg",
+            "descripcion": "Uno de los primeros juegos de Pokémon, situado en la región de Kanto. Ofrece una aventura clásica con la captura y entrenamiento de los primeros Pokémon. Fundamental para la historia de la franquicia con un diseño retro que ha influenciado a muchos juegos posteriores."
+        },
+        {
+            "id":12,
+            "categoria":"Kanto",
+            "titulo": "Pokemon Verde",
+            "precio":80,
+            "imagen":"https://live.staticflickr.com/5259/5398218354_c4e63b2f2a.jpg",
+            "descripcion": "El título original de Pokémon en la región de Kanto, conocido por su estilo de juego retro y su rol fundamental en la serie. Junto con 'Rojo', sentó las bases para el fenómeno global que se convirtió en Pokémon."
+        }
+    ]
+}

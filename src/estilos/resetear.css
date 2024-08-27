@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    transition: .5s all ;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+/* Modo oscuro */
+#Dark{
+    background-color: #333;
+    color: white !important;
+
+    .titulo-filtro, .precio ,.categoria, .input-valor{
+        color: white !important;
+    }
+
+    .Nombre-pagina-general, .mis-compras, .nombre-seccion-nav{
+        color: white;
+    }
+
+    .shop img, .i-lupa{
+        filter: invert(100%);
+    }
+
+    .nav-img-contenedor img{
+        filter: invert(100%);
+    }
+
+    .nav-header {
+        border-bottom: 1px solid white;
+    }
+    
+    .acerca-container{
+        background-color: #333;
+    }
+
+    .texto-nosotros{
+        color: white;
+    }
+
+    .hamburger-menu img{
+        filter: invert(100%);
+    }
+
+    .carrito-compra-item span{
+        color: white !important;
+    }
+    .mis-compras-item-info span, .mis-compras-total h3, .misCompras-titulo{
+        color: white !important;
+    }
+
+    .carritoNull{
+        color: white;
+    }
+    .usuario{
+        filter: invert(100%);
+    }
+    .form-container{
+        background-color: rgb(183, 183, 183);
+    }
+
+    .form-title{
+        color: white;
+    }
+
+    .nav-header{
+        background-image: url(../assets/blac.png);
+    }
+
+    footer{
+        
+        background-image: url(../assets/blac.png);
+    }
+    .footer-container{
+        background-image: url(../assets/blac.png);
+    }
+
+    .footer-column h3 {
+        color: white;
+    }
+    .social-icons i{
+        color: white;
+    }
+    .link-lista{
+        color: white;
+    }
+
+    .footer-bottom{
+        background-color: #333;
+    }
+    .footer-bottom div{
+        color: white;
+    }
+
+    .email-updates{
+        background-color: white;
+        color: black;
+    }
+
+    .whatsapp-icon{
+    filter: invert(100%);
+    }
+
+}
+
+#Light{
+    background-color: #f7f7f7;
+    color: #0d3f67 !important;
+}

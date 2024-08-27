@@ -1,0 +1,100 @@
+{
+    "productos": [
+        {
+            "id": 25,
+            "categoria": "Pikachu",
+            "titulo": "Hoodie Pika Pika",
+            "precio": 99.90,
+            "imagen": "https://www.pokemoncenter.com/images/DAMRoot/High/10000/P9715_741E10759_01.jpg",
+            "descripcion": "¡Presentamos la \"Pika Pika\" Hoodie, la prenda que todo verdadero fan de Pokémon necesita en su colección! Esta sudadera con capucha no solo es una declaración de estilo, sino también un homenaje al electrizante Pikachu."
+        },
+        {
+            "id": 26,
+            "categoria": "Charizard",
+            "titulo": "Casaca Denim Charizard",
+            "precio": 109.90,
+            "imagen": "https://www.pokemoncenter.com/images/DAMRoot/Full-Size/10000/P9800_741E11124_01.jpg",
+            "descripcion": "¡Dale un toque explosivo a tu guardarropa con esta chaqueta de mezclilla que es pura potencia! 🌟"
+        },
+        {
+            "id": 27,
+            "categoria": "Ditto",
+            "titulo": "Crop Top Simply Ditto",
+            "precio": 130.00,
+            "imagen": "https://i.ebayimg.com/images/g/gHMAAOSw709mqudy/s-l1600.webp",
+            "descripcion": "¡Transforma tu look con el crop top \"Simply Ditto\"! 🟣✨ Este top es el sueño de cualquier fan de Pokémon que quiera destacar con estilo. Inspirado en el adorable Ditto, este crop top combina comodidad y diversión en una sola prenda."
+        },
+        {
+            "id": 28,
+            "categoria": "Snorlax",
+            "titulo": "Crop Hoodie Snorlax Chill",
+            "precio": 69.90,
+            "imagen": "https://www.pokemoncenter.com/images/DAMRoot/Full-Size/10000/P9800_741E11175_01.jpg",
+            "descripcion": "¡Dale la bienvenida a la comodidad definitiva con esta hoodie que es tan adorable como relajada! 🎉 Presentamos la sudadera con capucha \"Snorlax Chill\", una prenda que captura la esencia del maestro de las siestas: Snorlax."
+        },
+        {
+            "id": 29,
+            "categoria": "Pikachu",
+            "titulo": "Mimikyu Dormilon",
+            "precio": 89.90,
+            "imagen": "https://i.ebayimg.com/images/g/gHMAAOSw709mqudy/s-l1600.webp",
+            "descripcion": "¡Despierta tu lado más divertido y eléctrico con los pantalones acampanados \"Pikachu & Friends\"! ⚡️👖 Estos pantalones no solo te brindan comodidad con su corte acampanado, sino que también te rodean de la energía y la alegría de Pikachu y sus amigos."
+        },
+        {
+            "id": 30,
+            "categoria": "Mushroom",
+            "titulo": "Mushroom Hoodie",
+            "precio": 59.90,
+            "imagen": "https://www.pokemoncenter.com/images/DAMRoot/Full-Size/10000/P8432_741-95030_01.jpg",
+            "descripcion": "¡Prepárate para una aventura mágica con la sudadera \"Mushroom Hoodie\"! 🍄✨ Esta sudadera única te envuelve en un abrazo cálido y cómodo, mientras te transporta a un mundo de fantasía con su encantador diseño de hongos."
+        },
+        {
+            "id": 31,
+            "categoria": "Friends",
+            "titulo": "Tropical Alola",
+            "precio": 40.00,
+            "imagen": "https://www.pokemoncenter.com/images/DAMRoot/Full-Size/10000/P9886_741E11420_01.jpg",
+            "descripcion": "¡Eleva tu estilo a un nuevo nivel de frescura con el polo \"Tropical Friends & Fronds\"! 🌴🍍 Este polo es tu pasaporte a un paraíso tropical, con un diseño vibrante y lleno de vida que te hará destacar en cualquier ocasión."
+        },
+        {
+            "id": 32,
+            "categoria": "Dragonite",
+            "titulo": "Polo Dragonite Oversize",
+            "precio": 50.90,
+            "imagen": "https://www.pokemoncenter.com/images/DAMRoot/Full-Size/10000/P9809_741E11303_01.jpg",
+            "descripcion": "¡Lleva tu estilo a nuevas alturas con el polo oversize \"Dragonite\"! 🐲✨ Con su diseño audaz y relajado, este polo es perfecto para los verdaderos fanáticos de Pokémon que quieren destacar con comodidad y actitud. El majestuoso Dragonite en el estampado te dará un aire de fuerza y confianza, mientras que el corte oversize garantiza una comodidad sin igual."
+        },
+        {
+            "id": 33,
+            "categoria": "Team",
+            "titulo": "Chaleco Team Rocket",
+            "precio": 59.90,
+            "imagen": "https://www.pokemoncenter.com/images/DAMRoot/Full-Size/10000/P8837_741-97291_01.jpg",
+            "descripcion": "¡Haz que tu estilo sea tan audaz como el equipo más infame de Pokémon con el chaleco \"Team Rocket\"! 🚀😈 Este chaleco es perfecto para aquellos que no temen destacar y dejar una impresión duradera. Con el icónico logo del Team Rocket en el frente, serás el centro de atención en cualquier reunión, mientras disfrutas de la comodidad y versatilidad que este chaleco ofrece."
+        },
+        {
+            "id": 34,
+            "categoria": "Charizard",
+            "titulo": "Casaca Charizard",
+            "precio": 59.90,
+            "imagen": "https://i.ebayimg.com/images/g/Sp8AAOSwsvJgZO5A/s-l960.webp",
+            "descripcion": "¡Desata el fuego de tu estilo con la casaca \"Charizard\"! 🔥🐲 Esta prenda es ideal para los entrenadores que quieren destacar con un look poderoso y enérgico. Con el icónico Charizard en todo su esplendor, esta casaca te envuelve en un abrazo cálido y audaz, perfecto para cualquier aventura."
+        },
+        {
+            "id": 35,
+            "categoria": "Kanto",
+            "titulo": "Hoodie Kanto Gym",
+            "precio": 49.90,
+            "imagen": "https://www.pokemoncenter.com/images/DAMRoot/Full-Size/10000/P7503_741-09508_01.jpg",
+            "descripcion": "¡Entrena tu estilo al máximo con la sudadera \"Kanto Gym\"! 💪🏆 Esta sudadera, inspirada en los legendarios gimnasios de la región de Kanto, es la elección perfecta para los entrenadores que buscan combinar confort y espíritu competitivo."
+        },
+        {
+            "id": 36,
+            "categoria": "Pokemon",
+            "titulo": "Shorts Pokemon Craft",
+            "precio": 39.90,
+            "imagen": "https://www.pokemoncenter.com/images/DAMRoot/Full-Size/10000/P9065_741-96834_01.jpg",
+            "descripcion": "¡Pokémon Craft es el compañero ideal que te mantendrá cómodo y con estilo! Añade un toque de magia Pokémon a tu guardarropa y deja que cada día sea una nueva experiencia con \"Pokémon Craft\"! 🌟👖🎨"
+        }
+    ]
+}

@@ -1,0 +1,349 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+
+:root{
+    --Fuente-Nombre-Roboto:"Roboto", sans-serif;
+    --Fuente-Descripcion-EduVicWaNTBeginner:"Edu VIC WA NT Beginner", cursive;
+    --Color-Primario:#edeff2;
+    --Color-Secundario:#303030;
+    --Color-Hover: #4B4B4B;
+    --Color-Boton-hover:#0bda51;
+    --Color-boton:#868e89;
+    --Color-Fondo:#939795;
+    --Color-titulo:#dadada;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.imagen-product{
+    display: block;
+    width: 320px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    transition: transform 0.3s, filter 0.3s; 
+}
+
+.img-contenedor img:hover {
+    transform: scale(1.1);
+    filter: brightness(60%);
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    backdrop-filter: blur(2px);
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding: 40px 0px;
+}
+
+.contenedor>.producto{
+    box-shadow: 0 0 5 0 rgba(0, 0, 0, 0.75);
+    background-color: var(--Color-Hover);
+    border-radius: 20px;
+    height: 540px;
+}
+
+.img-contenedor{
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.contenedor>div:hover{
+    background-color: var(--Color-Secundario);
+}
+
+.informacion{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.informacion:hover + .img-contenedor img {
+    transform: scale(1.5);
+}
+
+.informacion>p:first-child{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.informacion .precio{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.informacion .precio span{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.informacion button{
+    background-color:var(--Color-boton);
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.informacion button:hover{
+    background-color:var(--Color-Boton-hover);
+}
+
+.scroll{
+    background-color: var(--Color-Primario);
+    box-shadow: 1px 2px 3px #333;
+    z-index: 20;
+}
+
+.scroll img{
+    filter: invert(15%);
+}
+
+.scroll h1{
+    color: #141c29;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star {
+    font-size: 20px;
+    cursor: pointer;
+    color: gray;
+    transition: color 0.3s ease;
+}
+
+.star.selected,
+.star.hover {
+    color: gold;
+}
+
+.info-boton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.img-contenedor:hover .info-boton {
+    opacity: 1;
+}
+
+.popup {
+    position: fixed;
+    z-index: 99999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9); 
+    width: 70%;
+    max-width: 600px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease, transform 0.5s ease; 
+}
+
+.popup.show {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.popup img {
+    width: 250px; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.popup-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+.popup-details h2 {
+    margin-bottom: 10px;
+    font-family: var(--Fuente-Nombre-Roboto);
+    font-size: 24px;
+    color: red;
+}
+
+.popup-details p {
+    font-size: 18px;
+    color: white; 
+    margin-bottom: 10px;
+}
+
+.popup-details .precio {
+    font-size: 22px;
+    font-weight: bold;
+    color: white; 
+}
+
+.popup-details .valoracion {
+    margin-bottom: 10px;
+}
+
+.popup-details .descripcion {
+    font-size: 16px;
+    color: white; 
+}
+
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.popup.hide {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-50%, -50%) scale(0.9); 
+}
+
+.container-proximamente{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.proximamente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .proximamente h3 {
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  .proximamente-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+  }
+
+  .proximamente-img-container{
+    overflow: hidden;
+  }
+
+  .productos-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.fondo-todo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--Color-Fondo);
+    z-index: -1;
+}
+
+.contenedor {
+    position: relative;
+    z-index: 1;
+}
+
+@media(max-width:1100px){
+    .info-boton{
+        display: none;
+    }
+
+    .productos-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .carrito-compras{
+        display: flex;
+        margin-bottom: 90px;
+        border-radius: 20px 20px 20px 20px  !important;
+    }
+
+
+}
+

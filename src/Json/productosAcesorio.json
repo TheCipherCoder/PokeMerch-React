@@ -1,0 +1,100 @@
+{
+  "productos": [
+    {
+      "id": 13,
+      "categoria": "Pokebola",
+      "titulo": "Poke GPS",
+      "precio": 32.99,
+      "imagen": "https://i.blogs.es/d76a90/pgo-plus-anillo/840_560.jpg",
+      "descripcion": "¡Dale un abrazo a Pikachu con este adorable peluche! Suave y acogedor, perfecto para todos los fans de Pokémon."
+    },
+    {
+      "id": 14,
+      "categoria": "Poke pulsera",
+      "titulo": "Poke pulsera",
+      "precio": 14.99,
+      "imagen": "https://m.media-amazon.com/images/I/71PzhkTsYpL.jpg",
+      "descripcion": "Disfruta de tus bebidas con esta taza de cerámica inspirada en Bulbasaur. Ideal para comenzar el día con energía."
+    },
+    {
+      "id": 15,
+      "categoria": "Poke taza",
+      "titulo": "Poke Taza",
+      "precio": 20.00,
+      "imagen": "https://buhorockshop.com/wp-content/uploads/2021/12/taza-pokebola-450x450.jpg",
+      "descripcion": "Muestra tu amor por Charmander con esta camiseta de alta calidad. Con un diseño vibrante y cómodo para cualquier ocasión."
+    },
+    {
+      "id": 16,
+      "categoria": "Funko Pop",
+      "titulo": "Pikachu Funko Pop",
+      "precio": 15.00,
+      "imagen": "https://pokemart.es/wp-content/uploads/2022/04/130056-1.jpg",
+      "descripcion": "Manténte hidratado con esta botella de agua con el diseño de Squirtle. Perfecta para llevar contigo a todas partes."
+    },
+    {
+      "id": 17,
+      "categoria": "pikachu",
+      "titulo": "Pikachu baya",
+      "precio": 32.00,
+      "imagen": "https://www.pokemoncenter.com/images/DAMRoot/High/10000/P7285_703-08752_01.jpg",
+      "descripcion": "Lleva a Eevee a todas partes con esta mochila práctica y estilizada. Ideal para los aventureros Pokémon."
+    },
+    {
+      "id": 18,
+      "categoria": "pikachu",
+      "titulo": "Pikachu Love",
+      "precio": 32.00,
+      "imagen": "https://www.pokemoncenter.com/images/DAMRoot/High/10000/P7285_703-08754_02.jpg",
+      "descripcion": "Esta mochila de Pikachu es ideal para cualquier fan de Pokémon. Compacta y funcional para todas tus aventuras."
+    },
+    {
+      "id": 19,
+      "categoria": "Estuche",
+      "titulo": "Estuche Pikachu",
+      "precio": 25.99,
+      "imagen": "https://www.pokemoncenter.com/images/DAMRoot/Full-Size/10000/P10509_701E13503_01.jpg",
+      "descripcion": "Mantén tus útiles organizados con este estuche de Pikachu. Con un diseño divertido y práctico para el uso diario."
+    },
+    {
+      "id": 20,
+      "categoria": "Estuche",
+      "titulo": "Estuche Charmander",
+      "precio": 27.49,
+      "imagen": "https://www.pokemoncenter.com/images/DAMRoot/Full-Size/10000/P10077_701E11989_01.jpg",
+      "descripcion": "Este estuche con diseño de Charmander es perfecto para los fans de Pokémon. Ideal para llevar tus cosas de forma segura."
+    },
+    {
+      "id": 21,
+      "categoria": "Estuche",
+      "titulo": "Estuche Bulbasaur",
+      "precio": 22.99,
+      "imagen": "https://www.pokemoncenter.com/images/DAMRoot/Full-Size/10000/P10077_701E12009_01.jpg",
+      "descripcion": "Organiza tus artículos con estilo usando este estuche de Bulbasaur. Resistente y con un diseño único para los amantes de Pokémon."
+    },
+    {
+      "id": 22,
+      "categoria": "Estuche",
+      "titulo": "Estuche Squirtle",
+      "precio": 30.99,
+      "imagen": "https://www.pokemoncenter.com/images/DAMRoot/Full-Size/10000/P9865_701E11881_01.jpg",
+      "descripcion": "Este estuche de Squirtle es ideal para los fans de Pokémon. Perfecto para mantener tus pertenencias organizadas y seguras."
+    },
+    {
+      "id": 23,
+      "categoria": "Estuche",
+      "titulo": "Estuche Jigglypuff",
+      "precio": 28.99,
+      "imagen": "https://www.pokemoncenter.com/images/DAMRoot/Full-Size/10000/P8061_703-94671_01.jpg",
+      "descripcion": "Lleva tus cosas con estilo usando este estuche de Jigglypuff. Compacto y divertido para todos los fans de Pokémon."
+    },
+    {
+      "id": 24,
+      "categoria": "Estuche",
+      "titulo": "Estuche Meowth",
+      "precio": 33.50,
+      "imagen": "https://www.pokemoncenter.com/images/DAMRoot/Full-Size/10000/P7285_703-08751_01.jpg",
+      "descripcion": "Organiza tus útiles escolares con este estuche de Meowth. Con un diseño atractivo y práctico para el uso diario."
+    }
+  ]
+}

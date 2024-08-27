@@ -1,0 +1,139 @@
+.mis-compras {
+    padding: 35px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.nulll {
+    border-radius: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #a2a2a2;
+    text-align: center;
+    padding: 30px;
+}
+
+.mis-compras h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.mis-compras ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mis-compras-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.mis-compras-item-imagen {
+    width: 50px; 
+    height: auto;
+    margin-right: 1rem;
+}
+
+.mis-compras-item-info {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.mis-compras-item-info span {
+    color: black;
+}
+
+.mis-compras-cantidad-control button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 0.25rem;
+}
+
+.mis-compras-cantidad-control button:hover {
+    background-color: #0056b3;
+}
+
+.mis-compras-total {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.mis-compras-total h3 {
+    margin: 0;
+    color: black;
+}
+
+.comprar-button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.comprar-button:hover {
+    background-color: #218838;
+}
+
+.notification {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #28a745;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+@keyframes slideOut {
+    from {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(-50%) translateY(-20px);
+    }
+}
+
+.notification.show {
+    opacity: 1;
+    visibility: visible;
+    animation: slideIn 0.5s forwards;
+}
+
+.notification.hide {
+    animation: slideOut 0.5s forwards;
+}

@@ -1,0 +1,96 @@
+/* Estilos para el carrito de compras */
+.productos-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.padre-carrito-smal{
+    display: block;
+    position: relative;
+    width: 400px;
+}
+.carrito-compras {
+    position: relative; 
+    top: 38px;
+    right: 0;
+    width: 100vw; 
+    max-width: 400px; 
+    background-color: var(--Color-Hover);
+    border-radius: 20px 0 0 20px; 
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); 
+    overflow-y: auto; 
+    z-index: 1000; 
+    height: auto; 
+    transition: all 0.3s ease; 
+}
+
+.carrito-compras .titulo-carrito {
+    margin: 0;
+    padding: 1rem;
+    background-color: var(--Color-Secundario);
+    color: white; 
+    border-bottom: 1px solid var(--Color-titulo); 
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.carrito-compras ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carrito-compra-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid var(--Color-titulo); 
+}
+
+.carrito-compra-item span {
+    font-size: 1rem;
+    color: black;
+}
+
+.carrito-compra-cantidad-control {
+    display: flex;
+    align-items: center;
+}
+
+.carrito-compra-cantidad-control button {
+    background-color: var(--Color-Boton-hover); 
+    color: white;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 0.25rem;
+}
+
+.carrito-compra-cantidad-control button:hover {
+    background-color: var(--Color-boton);
+}
+
+.carrito-compra-limpiar-carrito {
+    display: block;
+    width: calc(100% - 2rem);
+    margin: 1rem auto;
+    padding: 0.5rem;
+    background-color: var(--Color-Boton-hover);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.carrito-compra-limpiar-carrito:hover {
+    background-color: var(--Color-boton); 
+}
+
+.carritoNull{
+    color: black;
+    text-align: center;
+    padding: 20px;
+}

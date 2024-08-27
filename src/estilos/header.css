@@ -1,0 +1,262 @@
+.container-padre-nav {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/image.png);
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-header {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 8px 20px;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.logo h1 {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.logo h1:hover {
+  color: rgba(255, 0, 0, 0.744);
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.search {
+  display: flex;
+}
+
+.search-barra {
+  padding: 7px;
+  font-size: 16px; 
+  border-radius: 10px;  
+}
+
+.i-lupa-img {
+  width: 40px;
+  height: 40px; 
+}
+.usuario{
+  align-items: center;
+  display: flex;
+  padding: 6px 10px;
+}
+.i-usuario{
+  width: 40px;
+  height: 40px;
+}
+.usuario a{
+  color: black;
+  align-items: center;
+  font-size: 18px;
+  text-decoration: none;
+}
+.usuario:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.shop {
+  display: flex;
+  align-items: center;
+}
+
+.i-bag {
+  width: 40px;
+  height: 40px; 
+}
+
+.shop a {
+  color: black;
+  align-items: center;
+  font-size: 18px;
+  padding: 0;
+}
+.shop:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.hamburger-menu {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger-menu img {
+  width: 40px;
+  height: 40px;
+}
+
+.nav-links {
+  position: relative;
+  z-index: 1000000;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 30px;
+}
+
+.nav-img-contenedor img {
+  object-fit: cover;
+  width: 45px;
+  height: 45px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.nav-item a {
+  color: black;
+  font-size: 18px;
+}
+
+.nav-item:hover {
+  background-color: #82818188;
+  transform: scale(1.1);
+  transition: transform 0.3s ease, border-radius 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  filter: brightness(1.3);
+}
+
+@media (max-width: 768px) {
+  .nav-header {
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .navbar {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  .Nombre-pagina-general{
+    font-size: 25px !important;
+  }
+
+  .logo img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-item {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-item a {
+    display: block;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .nav-item:hover {
+    transform: none;
+    background-color: #82818188;
+  }
+
+  /* Mostrar navbar al hacer clic en el menú hamburguesa */
+  .navbar.active {
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    position: absolute;
+    top: 61px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .shop{
+    display: none;
+  }
+}
+
+@media (max-width: 660px){
+  .search{
+    display: none;
+  }
+
+  .nav-header{
+    justify-content: center;
+  }
+
+  .hamburger-menu{
+    position: absolute;
+    right: 20px;
+  }
+
+  .react-switch{
+    position: absolute;
+    right: 330px;
+  }
+
+}
+
+
+
+@media (max-width: 420px){
+
+}
+
+@media (max-width: 600px) {
+  .filtro-precio {
+    display: none !important;
+  }
+
+  .filtro-region{
+    display: none !important;
+  }
+
+  .filtros h2{
+    width: 100%;
+    text-align: center;
+  }
+
+  .react-switch{
+    display: none !important;
+    }
+
+}
+
+.navbar{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
